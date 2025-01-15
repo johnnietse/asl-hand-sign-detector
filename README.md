@@ -66,10 +66,36 @@ Follow these steps to set up the project locally.
 
   ```bash
   pip install -r requirements.txt
+  ```
+
+## Usage 
+Run the Tkinter app in order to start the ASL hand sign detection app with the GUI, we will run:
+
+```bash
+python app.py
+```
+
+For the GUI interface:
+- Press the **Start Prediction** button to start detecting hand signs. (PS: You may have to click onto the button several times to get the app started.)
+- Press the **Exit** button to terminate the app and close any active windows. (PS: You may actually have to close some of the windows manually by yourself if this doesn't work.)
 
 
+## File Structure 
 
+The project directory for this project looks like this:
 
+```
+american-sign-language-hand-sign-detection-app/
+├── app.py                # Main Tkinter GUI application
+├── dataCollection.py     # Data collection script for hand signs
+├── test.py               # Real-time prediction script
+├── Model/                # Folder containing the trained model
+│   ├── keras_model.h5    # Trained Keras model for hand sign classification
+│   └── labels.txt        # Corresponding labels for ASL letters
+├── Data/                 # Folder for storing collected hand sign images
+│   └── Z/                # Subfolder for 'Z' hand sign images
+└── requirements.txt      # Required Python packages
+```
 
 
 
