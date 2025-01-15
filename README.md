@@ -43,7 +43,6 @@ Follow these steps to set up the project locally.
    ```bash
    git clone https://github.com/your-username/american-sign-language-hand-sign-detection-app.git
    cd american-sign-language-hand-sign-detection-app
-﻿# american-sign-language-hand-sign-detection-app
 
 2. **Create a virtual environment if you want to**
    
@@ -56,6 +55,7 @@ Follow these steps to set up the project locally.
   On Windows:
    ```bash
    venv\Scripts\activate
+   ```
 
   On macOS or Linux:
    ```bash
