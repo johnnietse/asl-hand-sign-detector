@@ -44,7 +44,7 @@ This project requires the following Python packages:
 - tensorflow (for the Keras model)
 - tkinter
 - matplotlib
-- keras (for machine learning model) -> but it should be already included in the Tensorflow dependency.
+- keras (for machine learning model) -> but it should already be included in the Tensorflow dependency.
 
 These dependencies should be listed in the requirements.txt file, and you can install them using:
 
