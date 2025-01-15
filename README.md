@@ -93,8 +93,7 @@ american-sign-language-hand-sign-detection-app/
 │   ├── keras_model.h5    # Trained Keras model for hand sign classification
 │   └── labels.txt        # Corresponding labels for ASL letters
 ├── Data/                 # Folder for storing collected hand sign images
-│   └── Z/                # Subfolder for 'Z' hand sign images
-└── requirements.txt      # Required Python packages
+│   └── A-Z/                # Subfolder for 'A' to 'Z' hand sign images
 ```
 
 
