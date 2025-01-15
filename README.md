@@ -60,7 +60,8 @@ Follow these steps to set up the project locally.
   On macOS or Linux:
    ```bash
    source venv/bin/activate
-  
+   ```
+
 4. **Install dependencies**
 
   ```bash
