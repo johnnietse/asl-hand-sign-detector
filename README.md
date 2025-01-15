@@ -85,6 +85,43 @@ If you already have a trained model, place it in the Model/ folder as keras_mode
 
 If you don't have the trained model, you can train it using the data collected by the dataCollection.py script. I would recommend using the "https://teachablemachine.withgoogle.com" website to train your model. The website should generate the trained model and labels as these two files: keras_model.h5 and labels.txt. Then, you will have to import these two files into the Model/ folder within the project to get the project to run correctly.
 
+### How to Train the Model Using Teachable Machine
+
+This guide will walk you through training a machine learning model for American Sign Language (ASL) hand sign detection using **Google Teachable Machine**.
+
+#### Step-by-Step Instructions
+
+##### 1. Start a New Project
+1. Go to [Teachable Machine](https://teachablemachine.withgoogle.com/).
+2. Select the **Image Project** option.
+3. Choose the **Standard Image Model** option.
+
+##### 2. Configure Classes
+1. Rename the classes as alphabets from **A to Z**.
+2. You can add additional classes if desired.
+3. For each class, upload the images you collected using the `dataCollection.py` file.
+
+##### 3. Train the Model
+1. Once all your images are uploaded, proceed to the next step.
+2. Click the **Train Model** button.
+3. Wait for the training process to complete. This may take some time depending on the amount of data.
+
+##### 4. Export the Model
+1. Turn the input **Off** for the webcam.
+2. Click the **Export Model** button.
+3. For the export options:
+   - Select **TensorFlow**.
+   - Choose **Keras** as the model conversion type.
+4. Download the resulting zip file.
+
+##### 5. Extract the Model Files
+1. The downloaded zip file contains two important files:
+   - **`labels.txt`**: A file containing the class labels (e.g., A, B, C, ... Z).
+   - **`keras_model.h5`**: The trained Keras model for ASL hand sign detection.
+
+##### 6. Integrate with Your Project
+1. Place the extracted files in your project directory:
+
 ## Usage 
 Run the Tkinter app in order to start the ASL hand sign detection app with the GUI, we will run:
 
