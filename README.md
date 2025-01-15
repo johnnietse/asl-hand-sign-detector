@@ -83,7 +83,7 @@ But first create a requirements.txt file in the project directory and include th
 
 If you already have a trained model, place it in the Model/ folder as keras_model.h5, and make sure the corresponding labels.txt file is also there.
 
-If you don't have the trained model, you can train it using the data collected by the dataCollection.py script. I would recommend using the "https://teachablemachine.withgoogle.com" website to train your model. The website should generate the trained model and labels as keras_model.h5 and labels.txt. Then, you will have to import those two files into the Model/ folder to get the project to run correctly.
+If you don't have the trained model, you can train it using the data collected by the dataCollection.py script. I would recommend using the "https://teachablemachine.withgoogle.com" website to train your model. The website should generate the trained model and labels as these two files: keras_model.h5 and labels.txt. Then, you will have to import these two files into the Model/ folder within the project to get the project to run correctly.
 
 ## Usage 
 Run the Tkinter app in order to start the ASL hand sign detection app with the GUI, we will run:
