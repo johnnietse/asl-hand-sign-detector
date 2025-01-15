@@ -120,7 +120,8 @@ This guide will walk you through training a machine learning model for American 
    - **`keras_model.h5`**: The trained Keras model for ASL hand sign detection.
 
 ##### 6. Integrate with Your Project
-1. Place the extracted files in your project directory:
+1. Place the extracted files in your project directory. If you have cloned this repository, place the two extracted files (keras_model.h5 and labels.txt) into the Model/ folder within the project directory.
+Your trained model is now ready to be used for ASL hand sign detection!
 
 ## Usage 
 Run the Tkinter app in order to start the ASL hand sign detection app with the GUI, we will run:
