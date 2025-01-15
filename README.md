@@ -8,7 +8,6 @@ This project is an **American Sign Language (ASL) Hand Sign Detection App** that
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [License](#license)
 
 ## Overview
 The app consists of the following components:
@@ -48,7 +47,7 @@ Follow these steps to set up the project locally.
    
    ```bash
    python -m venv venv
-
+   ```
 
 3. **Activate the virtual environment**
 
