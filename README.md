@@ -31,10 +31,29 @@ The main files involved are:
 Follow these steps to set up the project locally.
 
 ### Prerequisites
+
 - Python 3.x
-- OpenCV
+
+### Dependencies
+
+This project requires the following Python packages:
+
+- cv2 (OpenCV)
 - cvzone (for hand tracking and classification)
-- Keras (for machine learning model)
+- numpy
+- tensorflow (for the Keras model)
+- tkinter
+- matplotlib
+- keras (for machine learning model) -> but it should be already included in the Tensorflow dependency.
+
+These dependencies should be listed in the requirements.txt file, and you can install them using:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+But first create a requirements.txt file in the project directory and include the necessary dependencies within the .txt file.
+
 
 ### Steps to Install
 1. **Clone the repository:**
@@ -60,12 +79,13 @@ Follow these steps to set up the project locally.
    ```bash
    source venv/bin/activate
    ```
+4. **Download or Train the Model**
 
-4. **Install dependencies**
+If you already have a trained model, place it in the Model/ folder as keras_model.h5, and make sure the corresponding labels.txt file is also there.
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+If you don't have the trained model, you can train it using the data collected by the dataCollection.py script. The trained model and labels should be saved as keras_model.h5 and labels.txt in the Model/ folder.
+
+I would recommend using the "https://teachablemachine.withgoogle.com" website to train your model.
 
 ## Usage 
 Run the Tkinter app in order to start the ASL hand sign detection app with the GUI, we will run:
