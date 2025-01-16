@@ -1,6 +1,6 @@
-# American Sign Language Hand Sign Detection App
+# American Sign Language Hand Sign Detection Desktop App
 
-This project is an **American Sign Language (ASL) Hand Sign Detection App** that leverages computer vision and machine learning to recognize hand signs and classify them into corresponding ASL letters. The app uses a webcam for real-time detection and classification of hand gestures, displaying the recognized sign on screen.
+This project is an **American Sign Language (ASL) Hand Sign Detection Desktop App** that leverages computer vision and machine learning to recognize hand signs and classify them into corresponding ASL letters. The desktop app uses a webcam for real-time detection and classification of hand gestures, displaying the recognized sign on screen.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,7 +10,7 @@ This project is an **American Sign Language (ASL) Hand Sign Detection App** that
 - [File Structure](#file-structure)
 
 ## Overview
-The app consists of the following components:
+The desktop app consists of the following components:
 - **Data Collection**: Collects images of hand signs for training the model.
 - **Training**: Uses the collected images to train a machine learning model for gesture recognition.
 - **Prediction**: Uses the trained model to predict ASL signs in real-time using a webcam.
