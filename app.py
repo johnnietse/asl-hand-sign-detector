@@ -22,7 +22,7 @@ class HandRecognitionApp:
         # App Title
         tk.Label(
             self.root,
-            text="🖐 Hand Recognition App 🖐",
+            text="🖐 ASL Hand Sign Recognition App 🖐",
             font=("Helvetica", 24, "bold"),
             bg="#1e272e",
             fg="#ffffff",
