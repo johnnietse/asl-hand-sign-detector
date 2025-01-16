@@ -88,8 +88,6 @@ class HandRecognitionApp:
         if self.process:
             self.process.terminate()  # Use terminate() to terminate the process
 
-        # Send a message or command to release the camera in test.py (optional)
-        # If needed, you could use inter-process communication (e.g., a flag or signal).
 
         # Destroy the main Tkinter window
         self.root.destroy()
