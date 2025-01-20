@@ -59,7 +59,7 @@ But first create a requirements.txt file in the project directory and include th
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/american-sign-language-hand-sign-detection-app.git
+   git clone https://github.com/<your-username>/american-sign-language-hand-sign-detection-app.git
    cd american-sign-language-hand-sign-detection-app
 
 2. **Create a virtual environment if you want to**
