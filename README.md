@@ -159,6 +159,11 @@ american-sign-language-hand-sign-detection-app/
 │   └── A-Z/                # Subfolder for 'A' to 'Z' hand sign images
 ```
 
+---
+
+## 📸 Screenshots
+![Screenshot (725)](https://github.com/user-attachments/assets/9875a9a3-fb65-4d62-a7a1-eb1e15d8ce9f)
+![ASL](https://github.com/user-attachments/assets/aa78d89c-5c55-4e98-b7e0-f5707fc9e7bf)
 
 
 
