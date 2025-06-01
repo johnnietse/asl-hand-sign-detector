@@ -66,27 +66,27 @@ cd /path/to/your/directory
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/johnnietse/american-sign-language-hand-sign-detection-app.git
-   cd american-sign-language-hand-sign-detection-app
+```bash
+git clone https://github.com/johnnietse/american-sign-language-hand-sign-detection-app.git
+cd american-sign-language-hand-sign-detection-app
 
 2. **Create a virtual environment if you want to**
    
-   ```bash
-   python -m venv venv
-   ```
+```bash
+python -m venv venv
+```
 
 3. **Activate the virtual environment**
 
-  On Windows:
-   ```bash
-   venv\Scripts\activate
-   ```
+On Windows:
+```bash
+venv\Scripts\activate
+```
 
-  On macOS or Linux:
-   ```bash
-   source venv/bin/activate
-   ```
+On macOS or Linux:
+```bash
+source venv/bin/activate
+```
 4. **Download or Train the Model**
 
 If you already have a trained model, place it in the Model/ folder as keras_model.h5, and make sure the corresponding labels.txt file is also there.
