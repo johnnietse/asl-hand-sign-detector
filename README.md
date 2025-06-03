@@ -149,14 +149,17 @@ The project directory for this project looks like this:
 
 ```
 american-sign-language-hand-sign-detection-app/
-├── app.py                # Main Tkinter GUI application
-├── dataCollection.py     # Data collection script for hand signs
-├── test.py               # Real-time prediction script
+├── Data/                 # Folder for storing collected hand sign images
+│   └── A-Z/                # Subfolder for 'A' to 'Z' hand sign images
 ├── Model/                # Folder containing the trained model
 │   ├── keras_model.h5    # Trained Keras model for hand sign classification
 │   └── labels.txt        # Corresponding labels for ASL letters
-├── Data/                 # Folder for storing collected hand sign images
-│   └── A-Z/                # Subfolder for 'A' to 'Z' hand sign images
+├── README.md
+├── app.py                # Main Tkinter GUI application
+├── dataCollection.py     # Data collection script for hand signs
+└── test.py               # Real-time prediction script
+
+
 ```
 
 ---
