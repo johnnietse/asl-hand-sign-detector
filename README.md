@@ -158,8 +158,6 @@ american-sign-language-hand-sign-detection-app/
 ├── app.py                # Main Tkinter GUI application
 ├── dataCollection.py     # Data collection script for hand signs
 └── test.py               # Real-time prediction script
-
-
 ```
 
 ---
